@@ -1,0 +1,7 @@
+name = "sms-pusher-worker"
+main = "src/index.ts"
+compatibility_date = "2023-05-18"
+
+kv_namespaces = [
+  { binding = "SMS_STORE", id = {env.SMS_STORE_ID} }
+]
